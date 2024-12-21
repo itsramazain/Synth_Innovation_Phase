@@ -1,0 +1,9 @@
+.data
+myArray: .word 1, 4, 5, 7, 9, 12, 15, 17, 20, 21, 30
+arraySize: .word 11
+ 
+.text
+    addi $1,$0,0x1
+    addi $2,$0,0x2
+    addi $3,$0,0x5
+    addi $4,$1,0x1
